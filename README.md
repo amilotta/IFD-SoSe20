@@ -3,3 +3,7 @@
 Abgaben für Interface Design SoSe2020
 
  [ Aufgabe #00 ](SWOT/ConCars.html)
+
+
+ [ Aufgabe #01 ](WALLET/wallet.html)
+
