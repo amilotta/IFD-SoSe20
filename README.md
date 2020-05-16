@@ -8,4 +8,6 @@ Abgaben für Interface Design SoSe2020
  [ Aufgabe #01 ](WALLET/wallet.html)
 
 
- [ Aufgabe #02 ](GUI/gui.html)
+ [ Aufgabe #02.1 ](GUI/gui.html)
+
+ [ Aufgabe #02.2 ](GUI/gui1.html)
