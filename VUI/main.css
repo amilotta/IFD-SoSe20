@@ -1,0 +1,130 @@
+
+/************************************/
+/* CSS The Wallet Project */
+/************************************/
+
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* Global styles. */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	color: #808080;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+    font-family: libre-franklin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+li{
+    font-family: libre-franklin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1%
+}
+
+h1{
+    font-family: libre-franklin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 0%;
+
+}
+
+h2 {
+    font-family: libre-franklin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 4% 0% 4%;
+    font-size: 2em;
+}
+
+h3{
+    font-family: libre-franklin, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-bottom: -1%;
+}
+
+h4{
+    font-family: libre-franklin, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.text{
+    padding: 0% 10% 10% 10%;
+}
+
+.interview{
+    font-style: italic;
+    margin-top: 0%;
+}
+
+video{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.videohoch{
+    width:25%;
+    margin-left: 6%;
+}
+
+.centerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.center{
+    text-align: center;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: slategray;
+    text-decoration: none;
+}
+
+.videobox{
+
+}
+
+.img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.imgside{
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    float: left;
+}
