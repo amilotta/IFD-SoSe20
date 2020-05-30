@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://niclas9898.github.io/IFD-SoSe20/VUI/playground-artyom.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playgroud Artyom</title>
+    <script src="./Playgroud Artyom_files/artyom.window.min.js"></script>
+    <script src="./Playgroud Artyom_files/playgroud-artyom-script.js"></script>
+</head><script type="text/javascript" id="webrtc-control"></script>
+<body cz-shortcut-listen="true">
+    <p>This is a playground to test the web-based capabilities for a <b>Voice User Interface</b> with artyom.</p>
+
+    <button id="btn">Allow Voice Synthesis</button>
+    <script>
+        var Jarvis = new Artyom();
+        
+        // Needed user interaction at least once in the website to make
+        // it work automatically without user interaction later... thanks google .i.
+        document.getElementById("btn").addEventListener("click", function(){
+        Jarvis.say("Yes?");
+        }, false);
+    </script>
+
+</body></html>
