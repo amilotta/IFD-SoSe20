@@ -18,6 +18,19 @@ window.addEventListener("load", function () {
     });
 
     artyom.addCommands({
+        indexes: ["Guten Morgen","Gute Nacht", "Hallo"],
+        action: function(i){
+            if(i == 2){
+                artyom.say("Hallo Amelie");
+            }else if(i == 1){
+                artyom.say("Gute Nacht Amelie");
+            }else if(i == 0){
+                artyom.say("Guten Morgen Amelie");
+            }
+        }
+    });
+
+    artyom.addCommands({
         indexes: ["Wie lautet dein Name"],
         smart: false,
         action: function (i, wildcard) {
@@ -33,6 +46,8 @@ window.addEventListener("load", function () {
         }
     });
   
+
+    
     artyom.addCommands({
         indexes: ["Was gibt es Neues?"],
         smart: false,
