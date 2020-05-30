@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
         indexes: ["Hallo *"],
         smart: true,
         action: function (i, wildcard) {
-            artyom.say("Hallo");
+            artyom.say("Hallo Amelie");
         }
     });
 
@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
         indexes: ["Hallo"],
         smart: false,
         action: function (i, wildcard) {
-            artyom.say("Hallo");
+            artyom.say("Hallo Amelie");
         }
     });
 
