@@ -39,7 +39,7 @@ window.addEventListener("load", function () {
     });
 
     artyom.addCommands({
-        indexes: ["Wer hat heute Geburtstag?"],
+        indexes: ["Wer hat heute Geburtstag"],
         smart: false,
         action: function (i, wildcard) {
             artyom.say("Heute ist Lucia Bachmann's Geburtstag. Sie wird heute 21 Jahre alt.");
@@ -47,7 +47,23 @@ window.addEventListener("load", function () {
     });
     
     artyom.addCommands({
-        indexes: ["Was gibt es Neues?"],
+        indexes: ["Rufe * an"],
+        smart: false,
+        action: function () {
+            artyom.say("Okay, ich rufe die Mobilfunknummer von * an");
+        }
+    });
+
+    artyom.addCommands({
+        indexes: ["Hilfe", "Ahhhhh", "Notfall"],
+        smart: false,
+        action: function () {
+            artyom.say("Notruf ist kontaktiert. Bleiben Sie ruhig Amelie. Der Krankenwagen wird gleich bei Ihnen sein.");
+        }
+    });
+
+    artyom.addCommands({
+        indexes: ["Was gibt es Neues"],
         smart: false,
         action: function () {
             artyom.say("Um 15 Uhr kommt der Diakoniedienst. Soll ich etwas ausrichten?");
@@ -62,6 +78,13 @@ window.addEventListener("load", function () {
         }
     });
 
+    artyom.addCommands({
+        indexes: ["Welche Tabletten muss ich nehmen?","Medikamente","Medikamenteneinnahme"],
+        smart: false,
+        action: function () {
+            artyom.say("Morgens eine Aspirin und abends zwei Ibuprofen mit viel Wasser nach dem Essen einnehmen.");
+        }
+    });
 
   
 
