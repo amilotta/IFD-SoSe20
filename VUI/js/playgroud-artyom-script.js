@@ -45,9 +45,6 @@ window.addEventListener("load", function () {
             artyom.say("Heute ist Lucia Bachmann's Geburtstag. Sie wird heute 21 Jahre alt.");
         }
     });
-
-  
-
     
     artyom.addCommands({
         indexes: ["Was gibt es Neues?"],
