@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
     
     artyom.addCommands({
         indexes: ["Rufe * an"],
-        smart: false,
+        smart: true,
         action: function () {
             artyom.say("Okay, ich rufe die Mobilfunknummer von * an");
         }
@@ -64,7 +64,7 @@ window.addEventListener("load", function () {
 
     artyom.addCommands({
         indexes: ["Richte dem Diakoniedienst folgendes aus: *"],
-        smart: false,
+        smart: true,
         action: function () {
             artyom.say("Ich leite dem Diakoniedienst weiter: *");
         }
