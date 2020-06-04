@@ -63,10 +63,10 @@ window.addEventListener("load", function () {
     });
 
     artyom.addCommands({
-        indexes: ["Richte dem Diakoniediesnt folgendes aus: Meine Milch ist ausgelaufen, ich brauche eine Neue."],
+        indexes: ["Richte dem Diakoniedienst folgendes aus: *"],
         smart: false,
         action: function () {
-            artyom.say("Ich leite dem Diakoniediesnt weiter: Meine Milch ist ausgelaufen, ich brauche eine Neue.");
+            artyom.say("Ich leite dem Diakoniedienst weiter: *");
         }
     });
 
