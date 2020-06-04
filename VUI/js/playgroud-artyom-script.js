@@ -45,13 +45,14 @@ window.addEventListener("load", function () {
             artyom.say("Heute ist Lucia Bachmann's Geburtstag. Sie wird heute 21 Jahre alt.");
         }
     });
+
   
 
     
     artyom.addCommands({
         indexes: ["Was gibt es Neues?"],
         smart: false,
-        action: function (i, wildcard) {
+        action: function () {
             artyom.say("Um 15 Uhr kommt der Diakoniedienst. Soll ich etwas ausrichten?");
         }
     });
@@ -59,7 +60,7 @@ window.addEventListener("load", function () {
     artyom.addCommands({
         indexes: ["Richte dem Diakoniediesnt folgendes aus: Meine Milch ist ausgelaufen, ich brauche eine Neue."],
         smart: false,
-        action: function (i, wildcard) {
+        action: function () {
             artyom.say("Ich leite dem Diakoniediesnt weiter: Meine Milch ist ausgelaufen, ich brauche eine Neue.");
         }
     });
