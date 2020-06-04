@@ -10,14 +10,6 @@ window.addEventListener("load", function () {
     });
 
     artyom.addCommands({
-        indexes: ["Hallo"],
-        smart: false,
-        action: function (i, wildcard) {
-            artyom.say("Hallo Amelie");
-        }
-    });
-
-    artyom.addCommands({
         indexes: ["Guten Morgen","Gute Nacht", "Hallo"],
         action: function(i){
             if(i == 2){
