@@ -1,8 +1,6 @@
 window.addEventListener("load", function () {
     var artyom = new Artyom();
 
-
-
     artyom.addCommands({
         indexes: ["Guten Morgen","Gute Nacht", "Hallo"],
         action: function(i){
@@ -36,7 +34,7 @@ window.addEventListener("load", function () {
         indexes: ["Rufe * an"],
         smart: true,
         action: function (i, wildcard) {
-            artyom.say("Okay, ich rufe die Mobilfunknummer von * an");
+            artyom.say("Okay, ich rufe die Mobilfunknummer von wildcard an");
         }
     });
 
@@ -60,7 +58,7 @@ window.addEventListener("load", function () {
         indexes: ["Richte dem Diakoniedienst folgendes aus: *"],
         smart: true,
         action: function (i, wildcard) {
-            artyom.say("Ich leite dem Diakoniedienst weiter: *");
+            artyom.say("Ich leite dem Diakoniedienst weiter: wildcard");
         }
     });
 
