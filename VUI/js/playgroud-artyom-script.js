@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
     });
 
     artyom.addCommands({
-        indexes: ["Hilfe", "Ahhhhh", "Notfall"],
+        indexes: ["Hilfe", "Notfall"],
         smart: false,
         action: function () {
             artyom.say("Notruf ist kontaktiert. Bleiben Sie ruhig Amelie. Der Krankenwagen wird gleich bei Ihnen sein.");
