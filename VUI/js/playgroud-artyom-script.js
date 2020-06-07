@@ -1,13 +1,7 @@
 window.addEventListener("load", function () {
     var artyom = new Artyom();
 
-    artyom.addCommands({
-        indexes: ["Hallo *"],
-        smart: true,
-        action: function (i, wildcard) {
-            artyom.say("Hallo Amelie");
-        }
-    });
+
 
     artyom.addCommands({
         indexes: ["Guten Morgen","Gute Nacht", "Hallo"],
