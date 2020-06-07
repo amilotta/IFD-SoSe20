@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
         indexes: ["Rufe * an"],
         smart: true,
         action: function (i, wildcard) {
-            artyom.say("Okay, ich rufe die Mobilfunknummer von wildcard an");
+            artyom.say("Okay, ich rufe die Mobilfunknummer an");
         }
     });
 
@@ -58,7 +58,7 @@ window.addEventListener("load", function () {
         indexes: ["Richte dem Diakoniedienst folgendes aus: *"],
         smart: true,
         action: function (i, wildcard) {
-            artyom.say("Ich leite dem Diakoniedienst weiter: wildcard");
+            artyom.say(wildcard);
         }
     });
 
