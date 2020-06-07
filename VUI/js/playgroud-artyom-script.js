@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
     artyom.addCommands({
         indexes: ["Rufe * an"],
         smart: true,
-        action: function () {
+        action: function (i, wildcard) {
             artyom.say("Okay, ich rufe die Mobilfunknummer von * an");
         }
     });
@@ -65,13 +65,13 @@ window.addEventListener("load", function () {
     artyom.addCommands({
         indexes: ["Richte dem Diakoniedienst folgendes aus: *"],
         smart: true,
-        action: function () {
+        action: function (i, wildcard) {
             artyom.say("Ich leite dem Diakoniedienst weiter: *");
         }
     });
 
     artyom.addCommands({
-        indexes: ["Welche Tabletten muss ich nehmen?","Medikamente","Medikamenteneinnahme"],
+        indexes: ["Welche Tabletten muss ich nehmen","Medikamente","Medikamenteneinnahme"],
         smart: false,
         action: function () {
             artyom.say("Morgens eine Aspirin und abends zwei Ibuprofen mit viel Wasser nach dem Essen einnehmen.");
