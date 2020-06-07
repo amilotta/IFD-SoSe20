@@ -16,4 +16,6 @@ Abgaben für Interface Design SoSe2020
 
 [ Aufgabe #04 ](VUI/vui.html)
 
-[ Aufgabe #05 ](VUI/vui.1.html)
+[ Aufgabe #05.1 ](VUI/vui.1.html)
+
+[ Aufgabe #05.2 ](VUI/vui.2.html)
