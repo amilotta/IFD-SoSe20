@@ -8,7 +8,7 @@ Abgaben für Interface Design SoSe2020
  [ Aufgabe #01   – The Wallet Project](WALLET/wallet.html)
 
 
- [ Aufgabe #02.1 – GUI Vorstellung](GUI/gui.html)
+ [ Aufgabe #02.1 – Prototyping Tool Spark AR](GUI/gui.html)
 
  [ Aufgabe #02.2 – GUI Prototyp Lo-Fi](GUI/gui.1.html)
 
