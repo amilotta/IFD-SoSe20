@@ -73,6 +73,10 @@ h4{
     padding: 0% 10% 10% 10%;
 }
 
+.textdiv{
+    text-align: left;
+}
+
 .interview{
     font-style: italic;
     margin-top: 0%;
