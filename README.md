@@ -22,4 +22,4 @@ Abgaben für Interface Design SoSe2020
 
 [ Aufgabe #06 ](VR/vr.html)
 
-[ Aufgabe #07 ](VUI/vr.1.html)
+[ Aufgabe #07 ](VR/vr.1.html)
