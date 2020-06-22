@@ -23,3 +23,5 @@ Abgaben für Interface Design SoSe2020
 [ Aufgabe #06   – VR Cardboard ](VR/vr.html)
 
 [ Aufgabe #07   – VR Video Prototyp](VR/vr.1.html)
+
+[ Aufgabe #08   – VR Video](VR/mono-stereoscopic-video-viewer/index.html)
