@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>VR Brille</title>
+    <title>AR Anwendung</title>
     <link rel="stylesheet" href="main.css" />
 
     <link rel="stylesheet" href="https://use.typekit.net/kid2ffs.css" />
@@ -25,41 +25,84 @@
 
   <body>
     <div class="text">
-      <h1>VR/AR </h1>
+      <h1>AR Anwendung</h1>
 
       <h2>Idee</h2>
 
       <div class="textdiv">
         <p>
-          Bei einem 360 Grad Video besteht immer die Gefahr etwas im Bild zu
-          verpassen, weil man gerade nicht hinsieht. Bei professionellen
-          Werbevideos gibt es in der Story meist einen visuellen roten Faden,
-          der den Zuschauer durch das Video führt.
+          Meine Idee ist es, eine interaktive AR-Anwendung in Spark AR zu
+          erstellen. Dafür bietet das Programm mehrere Optionen. Ich entschied
+          mich hier für das Face-Tracking. Der User soll also durch das Bewegen
+          seines Kopfes mit der Anwendung interagieren können.
         </p>
         <p>
-          In dem Fall einer Gesprächsrunde ist dies allerdings nicht der Fall
-          und der Zuschauer ist oft etwas orientierungslos. Deshalb habe ich mir
-          überlegt, wie man den Zuschauer auch hier an der Hand nehmen kann.
+          Auf Instagram sieht man fast täglich neue AR-Filter bzw. AR-Spiele und
+          ich ließ mich hier von dem Spiel "Who is more likely to..." oder auf deutsch "Wer würde eher..."
+          inspirieren.
         </p>
       </div>
-      <h2>Storyboard</h2>
+
+      <h2>Umsetztung</h2>
+
+      <p>
+        Der erste Schritt hierfür war es, die drei Kreise auf Photoshop zu
+        erstellen, die später auf dem Gesicht liegen sollen.
+      </p>
 
       <div class="pics">
-        <img src="img/1.1.JPG" alt="Storyboard" width="100%" />
+        <img src="img/2.0.png" alt="Storyboard" width="30%" />
+        <img src="img/2.1.png" alt="Storyboard" width="30%" />
+        <img src="img/2.2.png" alt="Storyboard" width="30%" />
       </div>
 
-      <h2>Video Prottyp</h2>
-      <div class="pics">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/z_OTQqOv2uE"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      
+      <p>
+        Danach habe ich auf den Face-Tracker eine Head-Rotation gelegt und die
+        vier verschiedenen Fälle damit verbunden: beide Spieler rechts, beide
+        Spieler links und jeweils einer rechts einer links.
+      </p>
+      <p>
+        Als nächste Schritt habe ich den grünen Kreis damit verbunden, wenn
+        beide den Kopf in die gleiche Richtung drehen sowie den roten Kreis,
+        wenn die Spieler in unterschiedliche Richtungen schauen.
+      </p>
+      <p>
+        Beim Testen ist mir aufgefallen, dass man den weißen Kreis unsichtbar
+        machen muss, sobald einer dieser Events ausgelöst wird.
+      </p>
+
+      <img src="img/2.3.png" alt="Storyboard" width="100%" />
+      <img src="img/2.4.png" alt="Storyboard" width="100%" />
+
+      <p>
+        Nachdem dieser Fehler behoben wurde, erstellte ich fünf Fragen in
+        Photoshop und fügte diese als Textures ein. Im FaceTracker0 fügte ich
+        pro Frage ein Plane mit dem Material der jeweiligen Frage zu.
+      </p>
+
+      <p>
+        Jetzt musste ich im Patch Editor einstellen, dass nach jeder
+        "beantworteten" Frage die Nächste angezeigt wird. Das stellte ich so an:
+        Ich verbinde die Rotation durch ein Or mit einem Delay von einer Sekunde,
+        damit es nicht sofort umspringt. Dann fügte ich einen Counter ein.
+        Dieser zählt nach oben und schaltet je nachdem ein Frage ein
+        beziehungsweise aus.
+      </p>
+
+      <img src="img/2.5.png" alt="Storyboard" width="100%" />
+
+      <h2>Prototyp (auf Instagram)</h2>
+
+      <div class="videohoch">
+      <video src="img/2.6.MOV" controls></video>
+    </div>
+      <p>
+        Um die AR-Anwednung auf Instagram auszuprobieren,
+        <a
+          href="https://www.instagram.com/ar/263921478267426/?ch=NWQ3MGI1MWRlMzM3M2I5MGJlY2JiMGY0NTlmZDkyYTI%3Dc"
+          >klicken Sie hier</a
+        >
+      </p>
     </div>
   </body>
 </html>
