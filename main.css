@@ -3,6 +3,15 @@
 /* CSS The Wallet Project */
 /************************************/
 
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap");
+
+* {
+  font-family: 'Muli', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
 html {
 	margin: 0;
 	padding: 0;
@@ -16,7 +25,9 @@ body {
 	font-family: "Montserrat", sans-serif;
 	color: #808080;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    background-color: #eeeeee;
+   
 }
 
 p {
@@ -38,12 +49,14 @@ li{
 
 h1{
     font-family: libre-franklin, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
     text-align: center;
     font-size: 4em;
     margin-bottom: 0%;
-
+    padding-top: 5px;
+    padding-bottom: 15%;
+    color: #8ecbdf;
 }
 
 h2 {
@@ -51,8 +64,8 @@ h2 {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    margin: 4% 0% 4%;
     font-size: 2em;
+    color: #8ecbdf;
 }
 
 h3{
@@ -71,8 +84,20 @@ h4{
     margin-bottom: 1%;
 }
 
+h5{
+    font-family: libre-franklin, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 0%;
+    padding-top: 5px;
+    padding-bottom: 15%;
+}
+
 .text{
     padding: 0% 10% 10% 10%;
+    background-image: url('img/back.png');
 }
 
 .textdiv{
@@ -96,10 +121,8 @@ margin: 0% 0% 0% 39%;
 }
 
 .centerimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
+    display: flex;
+    margin: 2%;
 }
 
 .center{
@@ -123,6 +146,11 @@ a:hover{
 
 .videobox{
 
+}
+
+.ueberschrift{
+    padding: 3% 0% 0% 0%;
+   
 }
 
 .img{
@@ -161,7 +189,86 @@ a:hover{
     justify-content: center;
   }
 
-  .pics{
-      text-align: center;
+.pics{
+    text-align: center;
   }
-  
+
+img {
+  height: 120px;
+  width: auto;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.btn-buy {
+  background-color: #F5FBFF;
+  color: #000;
+  padding: 12px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.btn-buy:hover {
+  background-color: #eeeeee;
+  color: #FFF;
+ 
+}
+.btn-buy:active {
+  background-color: #F5FBFF;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 10em;
+
+}
+
+.card {
+  height: 400px;
+  width: 30%;
+  background-color: #F0F2F2;
+  transition: all .5s;
+  overflow: hidden;
+  margin:2%;
+}
+.card--variety1 {
+  background-color: #F2F4F4;
+}
+.card--variety2 {
+  background-color: #BDBFBF;
+}
+
+.card:hover {
+  transform: translateY(-2em) scale(1.1);
+  -webkit-box-shadow: -19px 18px 25px -8px rgba(0,0,0, 0.75);
+  -moz-box-shadow: -19px 18px 25px -8px rgba(0,0,0, 0.75);
+  box-shadow: -19px 18px 25px -8px rgba(0,0,0, 0.75);
+  background-color: #8ecbdf;
+}
+.card:hover .text-display {
+  color: #FFFFFF;
+  opacity: 1;
+  transform: translateY(-2em);
+}
+
+.text-display {
+  display: flex;
+  flex-direction: column;
+  padding: 57px 40px 40px 40px;
+  opacity: 1;
+  transform: translateY(6em);
+  color: #656A73;
+  transition: all .5s;
+}
