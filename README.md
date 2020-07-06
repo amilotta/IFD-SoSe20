@@ -2,6 +2,8 @@
 
 Abgaben für Interface Design SoSe2020
 
+[ Index ](index.html)
+
  [ Aufgabe #00   – SWOT](SWOT/ConCars.html)
 
 
