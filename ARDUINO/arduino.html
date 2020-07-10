@@ -1,0 +1,78 @@
+<!--************************************/
+/* HTML für IFD Prototyping Tool Presentation */
+/************************************/-->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Arduino Baukasten</title>
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/kid2ffs.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/kid2ffs.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/kid2ffs.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/2180f4b494c36099cda06e9715f15bda?family=GraphikLCGBold"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <div class="text">
+      <h1>ARDUINO - CORONA DISTANCE WARNING SYSTEM</h1>
+
+      <h2>Grobkonzept</h2>
+
+      <p>
+        Zunächst sollten wir ein Grobkonzept auf Papier erstellen. Da ich mich
+        mit Arduino nicht seh gut auskenne, habe ich allerdings damit gestartet
+        mir das Tool "Thinkercad" anzusehen und zu verstehen.
+      </p>
+
+      <p>
+        Als ich einen Überblick über die Funktionen bekommen habe, habe ich mich
+        an einen Prototypen gemacht.
+      </p>
+
+      <img
+        class="centerimg"
+        src="img/1.png"
+        alt="Prototyp Konzept"
+        width="90%"
+      />
+
+      <h2>Ansatz eines funktionalen Prototypen</h2>
+      <p>
+        Nach etwas herumprobieren und einigen Lektionen, habe ich direkt
+        gestartet mich mit dem Ultraschall-Abstandssensor zu beschäftigen. Nach
+        dem Anschluss eines Abstandssensors und dem Verbinden mit dem Arduino,
+        fügte ich noch eine kleine rote LED hinzu.
+      </p>
+
+      <img class="centerimg" src="img/2.png" alt="Arduino" width="90%" />
+
+      <p>
+        Im nächsten Schritt habe ich mich mit dem Code auseinandergesetzt. Ich
+        habe zunächst Zentimeter (cm) und die Entfernungsschwelle als Variablen
+        definiert. Die Entfernungsschwelle habe ich hier auf 150 cm gesetzt
+        (1,5 m Mindestabstand).
+      </p>
+
+      <p>
+        Mit "readUltrasonicDistance" konnte ich den Abstand zu einem Objekt
+        ausgeben lassen und in Zentimeter umrechnen lassen.
+      </p>
+
+      <p>
+        Danach habe ich festgelegt: Wenn die aktuellen Entfernung (cm) die
+        Entfernungsschwelle überschreitet, dann bleibt die Lampe aus: Abstand
+        ok. Wenn die aktuelle Entfernung die Entfernungsschwelle unterschreitet,
+        dann geht die Lampe an: Abstandsalarm!
+      </p>
+
+      <video src="img/3.mov" controls></video>
+    </div>
+  </body>
+</html>

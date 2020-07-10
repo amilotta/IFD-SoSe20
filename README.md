@@ -26,4 +26,4 @@ Abgaben für Interface Design SoSe2020
 
 [ Aufgabe #07   – VR Video Prototyp](VR/vr.1.html)
 
-[ Aufgabe #08   – AR Anwendung](VR/vr.2.html)
+[ Aufgabe #08   – AR Anwendung](ARDUINO/arduino.html)

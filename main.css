@@ -1,4 +1,3 @@
-
 /************************************/
 /* CSS The Wallet Project */
 /************************************/
@@ -7,191 +6,187 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap");
 
 * {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 html {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 /* Global styles. */
 
 body {
-	font-family: "Montserrat", sans-serif;
-	color: #808080;
-	margin: 0;
-    padding: 0;
-    background-color: #eeeeee;
-   
+  font-family: "Montserrat", sans-serif;
+  color: #808080;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
 }
 
 p {
-    font-family: libre-franklin, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
-    text-align: center;
+  font-family: libre-franklin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: center;
 }
 
-
-li{
-    font-family: libre-franklin, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 1%;
-
+li {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1%;
 }
 
-h1{
-    font-family: libre-franklin, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    text-align: center;
-    font-size: 4em;
-    margin-bottom: 0%;
-    padding-top: 5px;
-    padding-bottom: 15%;
-    color: #8ecbdf;
+h1 {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  font-size: 3.5em;
+  margin-bottom: 0%;
+  padding-top: 5px;
+  padding-bottom: 15%;
+  color: #8ecbdf;
 }
 
 h2 {
-    font-family: libre-franklin, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 2em;
-    color: #8ecbdf;
+  font-family: libre-franklin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 2em;
+  color: #8ecbdf;
 }
 
-h3{
-    font-family: libre-franklin, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 1.5em;
-    margin-bottom: -1%;
+h3 {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5em;
+  margin-bottom: -1%;
 }
 
-h4{
-    font-family: libre-franklin, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    margin-top: 4%;
-    margin-bottom: 1%;
+h4 {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 4%;
+  margin-bottom: 1%;
 }
 
-h5{
-    font-family: libre-franklin, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    text-align: center;
-    font-size: 4em;
-    margin-bottom: 0%;
-    padding-top: 5px;
-    padding-bottom: 15%;
+h5 {
+  font-family: libre-franklin, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 0%;
+  padding-top: 5px;
+  padding-bottom: 15%;
 }
 
-.text{
-    padding: 0% 10% 10% 10%;
-    background-image: url('img/back.png');
+.text {
+  padding: 0% 10% 10% 10%;
+  background-image: url("img/back.png");
 }
 
-.textdiv{
-    text-align: left;
+.textdiv {
+  text-align: left;
 }
 
-.interview{
-    font-style: italic;
-    margin-top: 0%;
+.interview {
+  font-style: italic;
+  margin-top: 0%;
 }
 
-video{
-    width: 80%;
-    margin-left: 10%;
+video {
+  width: 80%;
+  margin-left: 10%;
 }
 
-.videohoch{
-    width:25%;
-align-content: center;
-margin: 0% 0% 0% 39%;
+.videohoch {
+  width: 25%;
+  align-content: center;
+  margin: 0% 0% 0% 39%;
 }
 
-.centerimg{
-    display: flex;
-    margin: 2%;
+.centerimg {
+  display: flex;
+  margin: 2%;
 }
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
 
 a:link {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
-a:visited{
-    color: cadetblue;
-    text-decoration: none;
+a:visited {
+  color: cadetblue;
+  text-decoration: none;
 }
 
-a:hover{
-    color: slategray;
-    text-decoration: none;
+a:hover {
+  color: slategray;
+  text-decoration: none;
 }
 
-.videobox{
-
+.videobox {
 }
 
-.ueberschrift{
-    padding: 3% 0% 0% 0%;
-   
+.ueberschrift {
+  padding: 3% 0% 0% 0%;
 }
 
-.img{
-    width: 100%;
-    margin-bottom: 5%;
+.img {
+  width: 100%;
+  margin-bottom: 5%;
 }
 
-.imgside{
-    width: 48%;
-    margin-right: 2%;
-    margin-bottom: 5%;
-    float: left;
+.imgside {
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  float: left;
 }
 
-.button{
-    background-color: #8cbfe2;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2%;
+.button {
+  background-color: #8cbfe2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2%;
 }
 
 .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-.centerbtn{
-    width:100%; 
-    height:100%; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.centerbtn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.pics{
-    text-align: center;
-  }
+.pics {
+  text-align: center;
+}
 
 img {
   height: 120px;
@@ -208,22 +203,21 @@ p {
 }
 
 .btn-buy {
-  background-color: #F5FBFF;
+  background-color: #f5fbff;
   color: #000;
   padding: 12px 30px;
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .btn-buy:hover {
   background-color: #eeeeee;
-  color: #FFF;
- 
+  color: #fff;
 }
 .btn-buy:active {
-  background-color: #F5FBFF;
+  background-color: #f5fbff;
   color: #000;
 }
 
@@ -232,33 +226,32 @@ p {
   justify-content: flex-start;
   position: relative;
   top: 10em;
-
 }
 
 .card {
   height: 400px;
   width: 30%;
-  background-color: #F0F2F2;
-  transition: all .5s;
+  background-color: #f0f2f2;
+  transition: all 0.5s;
   overflow: hidden;
-  margin:2%;
+  margin: 2%;
 }
 .card--variety1 {
-  background-color: #F2F4F4;
+  background-color: #f2f4f4;
 }
 .card--variety2 {
-  background-color: #BDBFBF;
+  background-color: #bdbfbf;
 }
 
 .card:hover {
   transform: translateY(-2em) scale(1.1);
-  -webkit-box-shadow: -19px 18px 25px -8px rgba(0,0,0, 0.75);
-  -moz-box-shadow: -19px 18px 25px -8px rgba(0,0,0, 0.75);
-  box-shadow: -19px 18px 25px -8px rgba(0,0,0, 0.75);
+  -webkit-box-shadow: -19px 18px 25px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -19px 18px 25px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -19px 18px 25px -8px rgba(0, 0, 0, 0.75);
   background-color: #8ecbdf;
 }
 .card:hover .text-display {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   transform: translateY(-2em);
 }
@@ -269,6 +262,14 @@ p {
   padding: 57px 40px 40px 40px;
   opacity: 1;
   transform: translateY(6em);
-  color: #656A73;
-  transition: all .5s;
+  color: #656a73;
+  transition: all 0.5s;
+}
+
+/* Medium Queries */
+
+@media only screen and (min-width: 768px) and (max-width: 1600px) {
+  h1 {
+    font-size: 3em;
+  }
 }
