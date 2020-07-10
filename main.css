@@ -9,6 +9,13 @@
   font-family: "Muli", sans-serif;
   padding: 0;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lala{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 html {
@@ -211,10 +218,12 @@ p {
   margin-top: 10px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  
 }
 .btn-buy:hover {
   background-color: #eeeeee;
-  color: #fff;
+  color: #8ecbdf;
+  
 }
 .btn-buy:active {
   background-color: #f5fbff;
@@ -268,8 +277,22 @@ p {
 
 /* Medium Queries */
 
-@media only screen and (min-width: 768px) and (max-width: 1600px) {
-  h1 {
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
+  h5 {
     font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1500px) {
+  h5 {
+    font-size: 2em;
+  }
+
+  .card {
+    height: 300px;
+  }
+
+  .text-display {
+    padding-top: 0%;
   }
 }
