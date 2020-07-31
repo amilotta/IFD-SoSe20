@@ -293,6 +293,14 @@ p {
   }
 
   .text-display {
-    padding-top: 0%;
+    padding-top: 12%;
+  }
+
+  img{
+    height: 90px;
+  }
+
+  p{
+    font-size: 14px;
   }
 }
